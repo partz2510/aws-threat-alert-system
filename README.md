@@ -171,6 +171,8 @@ Real-world security monitoring pipeline
 
 ### 👤 Author
 Parthiban Ganesan
+
 AWS / Azure / Cybersecurity Projects Portfolio
+
 🔗 GitHub: github.com/partz2510
 
