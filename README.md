@@ -99,7 +99,9 @@ def lambda_handler(event, context):
     else:
         print("No failed logins detected.")
 
-    return {"statusCode": 200, "body": "Processed successfully"}
+    return {"statusCode": 200, "body": "Processed successfully"}```
+
+
 6️⃣ Add S3 Trigger
 Trigger type: S3
 
