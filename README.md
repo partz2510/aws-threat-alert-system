@@ -129,13 +129,21 @@ CloudTrail logs the failure → S3 uploads → Lambda triggers → SNS sends an 
 
 ### 📸 Screenshots
 Stage	Description
+
 1	S3 bucket setup
+
 2	CloudTrail trail summary
+
 3	SNS topic confirmed
+
 4	IAM role with attached policies
+
 5	Lambda function summary
+
 6	Trigger connection diagram
+
 7	Alert email received
+
 
 (All screenshots included in the /screenshots folder.)
 
