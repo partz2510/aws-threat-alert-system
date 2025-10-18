@@ -122,10 +122,12 @@ CloudTrail logs the failure → S3 uploads → Lambda triggers → SNS sends an 
 
 ✅ Receive an email titled “AWS Threat Alert 🚨” similar to:
 
-pgsql
-Copy code
+```
 🚨 Failed console login for user partz2510-admin from 43.230.96.222
-📸 Screenshots
+```
+
+
+### 📸 Screenshots
 Stage	Description
 1	S3 bucket setup
 2	CloudTrail trail summary
@@ -137,11 +139,11 @@ Stage	Description
 
 (All screenshots included in the /screenshots folder.)
 
-💰 Cost Estimation
+### 💰 Cost Estimation
 All services stay within the AWS Free Tier.
 Approximate monthly cost: <$1 USD.
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 Add GeoIP lookup for login origins
 
 Log alerts into DynamoDB
@@ -150,7 +152,7 @@ Create a QuickSight dashboard for visual analytics
 
 Integrate Amazon GuardDuty findings
 
-🧠 Learning Outcomes
+### 🧠 Learning Outcomes
 Event-driven architecture design
 
 Serverless automation
@@ -159,7 +161,7 @@ Practical IAM + SNS + Lambda integration
 
 Real-world security monitoring pipeline
 
-👤 Author
+### 👤 Author
 Parthiban Ganesan
 AWS / Azure / Cybersecurity Projects Portfolio
 🔗 GitHub: github.com/partz2510
